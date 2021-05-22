@@ -1,0 +1,121 @@
+html {
+	position: relative;
+	min-height: 100%;
+}
+body{
+	width: 100%;
+	height: auto;
+	margin: auto;
+	padding: auto;
+}
+.content {
+	
+	overflow: hidden;
+}
+.centertext{
+	width: 200px;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	right: -30%;
+	transform: translateX(235%) translateY(-50%) ;	
+}
+.centertext h1{
+	font-size: 25px;
+	color: black;
+	font-family: Franklin Gothic Demi;
+	font-weight: bold;
+	justify-content: center;
+	align-items: center;
+	text-transform: uppercase;
+}
+.header{
+	text-align: center;
+	margin: 10px auto 20px;
+	display: block;
+	height: 50%;
+	width: 50%;
+	transform:  translateX(20%) translateY(-2%);
+	
+}
+.listNote1_Button{
+	position: relative;
+	top: -0.5px;
+	right: -80px;
+	cursor: pointer;	
+	top: 2px;	
+}
+.listNote1_Button:hover{
+	cursor: pointer;
+	transform: scale(1.03);
+	transition: transform 100ms;
+}
+.listNote2_Button{
+	position: relative;
+	top: -0.5px;
+	right: -80px;
+	cursor: pointer;
+	top: 6px;	
+}
+.listNote2_Button:hover{
+	cursor: pointer;
+	transform: scale(1.03);
+	transition: transform 100ms;
+}
+.listNote3_Button{
+	position: relative;
+	top: -0.5px;
+	right: -80px;
+	cursor: pointer;
+	top: 10px;	
+}
+.listNote3_Button:hover{
+	cursor: pointer;
+	transform: scale(1.03);
+	transition: transform 100ms;
+}
+.listNote4_Button{
+	position: relative;
+	top: -0.5px;
+	right: -80px;
+	cursor: pointer;	
+	top: 14px;
+}
+.listNote4_Button:hover{
+	cursor: pointer;
+	transform: scale(1.03);
+	transition: transform 100ms;
+}
+.listNote5_Button{
+	position: relative;
+	top: -0.5px;
+	right: -80px;
+	cursor: pointer;	
+	top: 18px;
+}
+.listNote5_Button:hover{
+	cursor: pointer;
+	transform: scale(1.03);
+	transition: transform 100ms;
+}
+.content { 
+	padding: 15px; 
+	box-sizing: border-box;
+	text-align: center;
+}
+footer {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 40px;
+	width: 100%;
+	color:#FFFFFF; 
+	background: #95B9C7;
+	font-size: 0.3em;
+	text-align: center;
+	line-height: 10px;
+}

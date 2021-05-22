@@ -1,0 +1,100 @@
+html {
+	position: relative;
+	min-height: 100%;
+}
+body{
+	width: 100%;
+	height: auto;
+	margin: auto;
+	padding: auto;
+}
+.content {
+	
+	overflow: hidden;
+}
+
+.Noni_B_Smile2{
+	position: relative;
+	left: 90px;
+}
+.header{
+	text-align: center;
+	margin: 10px auto 20px;
+	display: block;
+	height: 50%;
+	width: 50%;
+	transform:  translateX(-14%) translateY(10%);
+}
+.container{
+	background: #C5E0B4;
+	position: relative;
+	max-width: 450px;
+	height: 400px;
+	border: 2px solid #29401a;
+	margin: 10px auto;
+	padding: 30px;
+	box-sizing: border-box;
+	font-family: Roboto;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: middle;
+	transform:  translateX(40%) translateY(1%);
+}
+.container:after{
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	border-top: 2px solid #29401a;
+	border-right: 2px solid #29401a;
+	border-bottom: 2px solid transparent;
+	border-left: 2px solid transparent;
+	top: 50%;
+	left: 100%;
+	margin-left: -25px;
+	content:"";
+	transform: rotate(45deg);
+	margin-top: -80px;
+	background: #C5E0B4;
+}
+
+span.frac {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+}
+span.frac > sup, span.frac > sub {
+  display: block;
+  font: inherit;
+  padding: 0 0.10cm;
+}
+span.frac > sup {border-bottom: 0.08em solid;}
+span.frac > span {display: none;}
+
+.previousbutton{
+	display: flex;
+	justify-content: center;
+	bottom: 0px;
+	position: fixed;
+	transform:  translateX(20%) translateY(-90%);
+}
+.previousbutton img{
+	align-self: flex-end;
+	justify-content: center;
+}
+.content { 
+	padding: 15px; 
+	box-sizing: border-box;
+	text-align: center;
+}
+footer {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 40px;
+	width: 100%;
+	color:#FFFFFF; 
+	background: #95B9C7;
+	font-size: 0.3em;
+	text-align: center;
+	line-height: 10px;
+}

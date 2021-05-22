@@ -1,0 +1,88 @@
+html {
+	position: relative;
+	min-height: 100%;
+}
+.content {
+	position: relative;
+	overflow: hidden;
+}
+.Pic1{
+	display: flex;
+}
+.Pic1:hover{
+	cursor: pointer;
+	transform: scale(1.02);
+	transition: transform 100ms;
+}
+.centertext{
+	width: 200px;
+	height: 100px auto;
+	-webkit-text-stroke: 1px black;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	right: 50%;
+	transform: translateX(-90%) translateY(30%) ;	
+}
+.centertext h1{
+	font-size: 60px;
+	color: #FBB917;
+	font-weight: bold;
+	animation: textanimation 1s ease-in-out;
+	font-family: Whale I Tried;
+	justify-content: center;
+	align-items: center;
+}
+@keyframes textanimation{
+	0%{
+		transform: scale(0);
+	}
+	100%{
+		letter-spacing: 0.5px;
+	}
+}
+.centertext p{
+	text-align: center;
+	font-size: 60px;
+	color: #FBB917;
+	font-weight: bold;
+	animation: textanimation2 1s ease-in-out;
+	font-family: Whale I Tried;
+	justify-content: center;
+}
+@keyframes textanimation2{
+	0%{
+		transform: scale(0);
+	}
+	100%{
+		letter-spacing: 0.5px;
+	}
+}
+.Pic2{
+	display: flex;
+}
+.Pic2:hover{
+	cursor: pointer;
+	transform: scale(1.02);
+	transition: transform 100ms;
+}
+.content { 
+padding: 15px; 
+box-sizing: border-box;
+text-align: center;
+}
+footer {
+position: absolute;
+left: 0;
+bottom: 0;
+height: 40px;
+width: 100%;
+color:#FFFFFF; 
+background: #95B9C7;
+font-size: 0.3em;
+text-align: center;
+line-height: 10px;
+}

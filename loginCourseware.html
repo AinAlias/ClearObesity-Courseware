@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang = "en" dir="ltr">
+	<head>
+	
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<meta http-equiv="refresh" content="100; url=homepage.html">
+		<title> Login Courseware </title>
+		<!-- Add icon library -->
+		<link rel="stylesheet" href="loginCoursewareStyle.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<style>
+	body {
+		background-image: url('background2.jpg');
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: center center;
+		background-size: 100% 100%;
+	}
+	
+	</style>
+	</head>
+	<body>
+		
+		<!-- Login -->
+		
+		<form class="login_box" method="POST" action="connectLogin.php"  >
+			<h1> Welcome to ClearObesity Courseware !</h1>
+			<p> ~Prevention is better than cure~ </p>
+			<h2> USER LOGIN </h2>
+			
+			<input type="text" name="username" placeholder="Name" value="" required>
+			<input type="text" name="class" placeholder="Class" value="" required>
+			<input type="submit" class="btn" value="Login" onclick="myFunction()">
+			
+		</form>
+		
+		
+		<!-- Top Button -->
+		<a href= "exit.html">
+		<img src = "buttonexit.png" alt = "Button exit" width = "50" height = "50"
+		style="float:right; margin-left=10%; margin-bottom=0.em">
+		</a>
+		
+		<img src = "buttonsound.png" alt = "Button sound" width = "50" height = "50"
+		style="float:right; cursor:pointer" onClick="document.getElementById('audio_pause').pause(); return false;" />
+
+		<audio id="audio_play" autoplay loop>
+		<source src="Happy Kid's Cartoon Music Background (2).mp3" type="audio/ogg" />
+		<source src="Happy Kid's Cartoon Music Background (2).mp3" type="audio/mpeg" />
+		</audio>
+
+		
+		<!--Footer Here-->
+		<div class="content">
+			<section role="main"> 
+				<!--Content Here-->
+			</section>
+		</div>
+				<!--Footer Here-->
+					<footer>
+					
+						<h1>~Prevention is better than cure~</h1>
+						<h1>Copyright &copy; 2021, ClearObesity Courseware by Ain Mai</h1>
+						
+					</footer>
+					
+		<script src = "loginCourseware.js"></script>
+	</body>
+
+</html>

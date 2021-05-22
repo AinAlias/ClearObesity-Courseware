@@ -1,0 +1,112 @@
+body{
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+.login_box{
+	width: 500px;
+	padding: 30px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-53%);
+	background-color: #ffc3e5;
+	outline: #963164;
+	text-align: center;
+	border: 4px groove #963164;
+	border-radius: 50px;
+}
+.login_box h1{
+	text-align: center;
+	padding: 13px 0;
+	margin-bottom: 10px;
+	color: black;
+	font-weight: 500px;
+}
+.login_box h2{
+	text-align: center;
+	padding: 13px 0;
+	margin-bottom: 5px;
+	color: black;
+	text-transform: uppercase;
+	font-weight: 400px;
+}
+.login_box p{
+	text-align: center;
+	padding: 13px 0;
+	margin-bottom: 5px;
+	color: black;
+	font-weight: 300px;
+}
+.login_box input[type="text"]{
+	background: #29e1de;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #29e1de;
+	padding: 14px 60px;
+	width: 200px;
+	outline: #29e1de;
+	color: black;
+	border-radius: 15px;
+	transition:0.25s;
+}
+.login_box input[type="text"]:focus{
+	width: 280px;
+	background-color: #b3f4f3;
+	border-color: #29e1de;
+}
+.login_box input[type="submit"]{
+	border: 2px solid #c30076;
+	background: #c30076;
+	display: block;
+	width: 200px;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #c30076;
+	padding: 14px 10px;
+	outline: #c30076;
+	color: black;
+	border-radius: 15px;
+	transition:0.25s;
+}
+.login_box input[type="submit"]:hover{
+	background: #ff78c9;
+	cursor: pointer;
+	transform: scale(1.03);
+	transition: transform 100ms;
+}
+.previousbutton{
+	display: flex;
+	justify-content: center;
+	bottom: 0px;
+	position: absolute;
+	transform:  translateX(2%) translateY(-90%);
+}
+.previousbutton img{
+	align-self: flex-end;
+	justify-content: center;
+}
+.nextbutton{
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	transform:  translateX(-10%) translateY(-100%);
+}
+.content { 
+	padding: 15px; 
+	box-sizing: border-box;
+	text-align: center;
+}
+footer {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 40px;
+	width: 100%;
+	color:#FFFFFF; 
+	background: #95B9C7;
+	font-size: 0.3em;
+	text-align: center;
+	line-height: 10px;
+}

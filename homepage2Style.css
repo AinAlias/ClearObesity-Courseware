@@ -1,0 +1,95 @@
+html {
+	position: relative;
+	min-height: 100%;
+}
+body{
+	width: 100%;
+	height: auto;
+	margin: auto;
+	padding: auto;
+}
+.content {
+	overflow: hidden;
+}
+
+.Noni_B_Smile{
+	position: relative;
+	right: 70px;
+}
+.content-wrapper{
+	width: 80%;
+	margin: 4% 16% 5% 10%;
+	padding: auto;
+	position: relative;
+	top: -130px;
+	right: 460px;
+}
+.content-wrapper img{
+	width: 100%;
+}
+.Text_Box{
+	text-align: center;
+	float: center;
+}
+.text-wrapper{
+	width: 100%;
+	position: relative;
+	margin-top: -40%;
+	margin-bottom: 50%;
+	
+}
+.text-wrapper h1{
+	text-align: center;
+	color: black;
+	font-size: 2vw;
+	font-family: Roboto;
+	margin-top: -55%;
+	margin-bottom: 60%;
+	margin-left: 20%;
+}
+.header{
+	text-align: center;
+	margin: 10px auto 20px;
+	display: block;
+	height: 50%;
+	width: 50%;
+	transform:  translateX(-20%) translateY(20%);
+}
+.Notes_Button{
+	position: relative;
+	top: -0.5px;
+	right: 510px;	
+}
+.Notes_Button:hover{
+	cursor: pointer;
+	transform: scale(1.03);
+	transition: transform 100ms;
+}
+.Exercise_Button{
+	position: relative;
+	top: 3px;
+	right: 510px;
+	cursor: pointer;
+}
+.Exercise_Button:hover{
+	cursor: pointer;
+	transform: scale(1.03);
+	transition: transform 100ms;
+}
+.content { 
+	padding: 15px; 
+	box-sizing: border-box;
+	text-align: center;
+}
+footer {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 40px;
+	width: 100%;
+	color:#FFFFFF; 
+	background: #95B9C7;
+	font-size: 0.3em;
+	text-align: center;
+	line-height: 10px;
+}

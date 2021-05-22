@@ -1,1 +1,0 @@
-# ClearObesity-Courseware
